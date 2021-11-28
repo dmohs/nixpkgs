@@ -33818,4 +33818,6 @@ with pkgs;
   };
 
   zthrottle = callPackage ../tools/misc/zthrottle { };
+
+  push-to-talk = callPackage ../os-specific/darwin/push-to-talk { };
 }
